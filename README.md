@@ -99,19 +99,19 @@ Foi utilizado apenas o Power BI para o desenvolvimento do Dashboard e uma paleta
 * Restaurantes por cidade e suas classificações
 * Preço médio através das moedas BRL, USD e EUR.
 
-## Relacionamentos
+# Relacionamentos
 
-# Tabela de fato:
+## Tabela de fato:
 
 * Avaliações Restaurante
 
-# Dimensões:
+## Dimensões:
 
 * Países
 * Cousines
 * Câmbio
 
-# Relacionamentos:
+## Relacionamentos:
 
 * Avaliações Restaurante(n) - (n)dim_Cousines = muitos para muitos (n-n)
 * Avaliações Restaurante(n) - (1)dim_Paises = muitos para um (n-1)
